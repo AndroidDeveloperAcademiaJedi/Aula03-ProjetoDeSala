@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_calendario"
+        android:title="Calendario"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_mensagem"
+        android:title="Mensagens"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_dialog_email"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_configuracao"
+        android:title="Configurações"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_manage"
+        app:showAsAction="ifRoom"/>
+
+</menu>
